@@ -1,5 +1,5 @@
 ## **Howdy Howdy**
-##aidanyouell.github.io
+## aidanyouell.github.io
 
 <!--
 **aidanyouell/aidanyouell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
