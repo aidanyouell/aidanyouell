@@ -1,0 +1,50 @@
+Find Errors(lines are based on find_errors_raw file not find_errors_fixed file)
+
+Error 1: Line 1, missing <!DOCTYPE html>
+Error 2: Line 4, <html language="en"> should go outside the head tag
+Error 3: Line 7, no closing head tag
+Error 4: Line 9, no h1 closing tag
+Error 5: Line 11, no opening p tag
+Error 6: Line 13 and 24, opening and closing tags are mismatched list types <ol></ul> (fixed to just ol)
+Error 7: Line 19, closing </li> tag where opening tag should be
+Error 8: Line 26, no closing p tag
+Error 9: Line 30, closing img tag where closing a tag should be
+Error 10: Line 45, no closing table tag
+Error 11: Line 46, source="" instead of src=""
+Error 12: Line 48, No s tags around text
+Error 13: Line 50, need style="" for changing background color
+Error 14: Line 50, bgcolor="lightgrey" needs to be background-color:lightgrey;
+Error 15: Line 54, didn't close comment
+Error 16: Line 56, No closing a tag
+Error 17: Line 58, closed tags in wrong order
+Error 18: Line 64, h3 opening tag where closing h2 tag should be
+Error 19: Line 4, this line does not need to be here at all
+Error 20: Line 1, replace content in line 1 with what is in line 4
+Error 21: Line 28, missing alt text
+Error 22: Line 58, <em> should be <u>
+Error 23: Line 61, li tags need to be dt tags
+Error 24: Line 62, li tags need to be dd tags
+Error 25: Line 4, <html language="en"> needs to be <html lang="en">
+Extra error: Line 39, <td> is missing a closing tag
+Extra error: missing <meta charset="UTF-8">
+Extra error: Line 28, image pathing is wrong
+Extra error: Line 46, image pathing is wrong
+
+Find Errors 2 (lines are based on find_errors_2_raw file not find_errors_2_fixed file)
+
+Error 26: Line 16, </htm> is spelt wrong
+Error 27: Line 2, Missing an opening <html lang="en"> tag at the start
+Error 28: Line 4, missing a closing head tag
+Error 29: Line 4, h1 should be in body
+Error 30: Line 5, didn't finish body tag
+Error 31: Line 6, random html tag
+Error 32: Line 7, random div/no closing tag for it(I removed it)
+Error 33: Line 8, no closing p tag
+Error 34: Line 8, no closing strong tag (should be closed before the p tag gets closed)
+Error 35: Line 10, no alt text
+Error 36: Line 12, no opening h2 tag
+Error 37: Line 14, no opening p tag
+Error 38: Line 15, wrong comment format
+Error 39: Line 15, missing closing body tag
+Error 40: Line 10, href="" should be src=""
+Extra error: Line 10, pathing for image is wrong
