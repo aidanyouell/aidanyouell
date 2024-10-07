@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    background-image: url('/img/DSC_0053.JPG');
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text-box {
+    position: relative;
+    background-color: rgba(179, 179, 179, 1);
+    color: #000000;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 20px;
+    left: 1%;
+    top: 1%;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.cost
+{
+    color: #ff1d0d;
+}
