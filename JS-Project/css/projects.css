@@ -1,59 +1,59 @@
 body{
-    background-color: #eae6e1;
-    font-family: 'Montserrat', serif;
+    background-color: #eae6e1; /* Set background color for the body */
+    font-family: 'Montserrat', serif; /* Set the font for the body text */
 }
 
 #project {
-    display: flex;
-    flex-direction: row; /* Stack name and description vertically */
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    width: 100%; /* Full width */
-    height: 100vh; /* Full viewport height */
-    background-color: #eae6e1; /* Background color */
-    text-align: left; /* Center align text */
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange child elements in a row (horizontal direction) */
+    align-items: center; /* Vertically center child elements within the container */
+    justify-content: center; /* Horizontally center child elements within the container */
+    width: 100%; /* Make the container take up full width of the viewport */
+    height: 100vh; /* Make the container take up full height of the viewport */
+    background-color: #eae6e1; /* Set background color of the container */
+    text-align: left; /* Align text to the left within the container */
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Aligns content and image to the left */
-    align-items: flex-start; /* Aligns the content at the top */
-    max-width: 60%;
-    margin: 20px;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements in a column (vertical direction) */
+    justify-content: flex-start; /* Align child elements at the start (top) of the container */
+    align-items: flex-start; /* Align child elements to the left of the container */
+    max-width: 60%; /* Limit the maximum width of the content to 60% of the container */
+    margin: 20px; /* Add spacing around the content */
 }
 
 .img img {
-    width: 500px; /* Set desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Rounded corners */
-    margin-left: 20px; /* Add space between text and image */
+    width: 500px; /* Set the image width to 500px */
+    height: auto; /* Keep the image’s aspect ratio intact while resizing */
+    border-radius: 15px; /* Apply rounded corners to the image */
+    margin-left: 20px; /* Add 20px space between the image and the text */
 }
 
 .name h1 {
-    font-size: 4.75rem; /* Large, prominent heading */
-    margin: 0 0 20px 0; /* Add spacing below the heading */
-    color: #000000; /* Darker text color for contrast */
+    font-size: 4.75rem; /* Set the font size for the main heading (large) */
+    margin: 0 0 20px 0; /* Add 20px margin below the heading, no margin above */
+    color: #000000; /* Set the color of the heading to black for strong contrast */
 }
 
 .subtitle h3 {
-    font-size: 2rem;
-    margin: 0;
-    color: #3d3d3d;
+    font-size: 2rem; /* Set the font size for the subtitle (smaller than the heading) */
+    margin: 0; /* Remove any default margin */
+    color: #3d3d3d; /* Set a grayish color for the subtitle */
 }
 
 .abstract p {
-    font-size: 1.2rem; /* Slightly larger font for readability */
-    line-height: 1.8; /* Adjust line height for better spacing */
-    color: #666; /* Softer text color for description */
-    max-width: 800px; /* Limit text width for better readability */
-    margin: 2vh 1vh 1vh 0vh;
+    font-size: 1.2rem; /* Set font size slightly larger for readability */
+    line-height: 1.8; /* Increase line height for better text spacing */
+    color: #666; /* Set a softer gray color for the paragraph text */
+    max-width: 800px; /* Limit the width of the paragraph text to 800px for better readability */
+    margin: 2vh 1vh 1vh 0vh; /* Add vertical and horizontal margin, except for the left margin */
 }
 
 .description p {
-    font-size: 1.2rem; /* Slightly larger font for readability */
-    line-height: 1.8; /* Adjust line height for better spacing */
-    color: #666; /* Softer text color for description */
-    max-width: 800px; /* Limit text width for better readability */
-    margin: 1vh 1vh 1vh 0vh;
+    font-size: 1.2rem; /* Set font size slightly larger for readability */
+    line-height: 1.8; /* Increase line height for better text spacing */
+    color: #666; /* Set a softer gray color for the paragraph text */
+    max-width: 800px; /* Limit the width of the paragraph text to 800px for better readability */
+    margin: 1vh 1vh 1vh 0vh; /* Add vertical and horizontal margin, except for the left margin */
 }

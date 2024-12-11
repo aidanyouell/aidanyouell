@@ -1,124 +1,123 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', serif;
-    background-color: #858d7d;
+    margin: 0; /* Remove default margin from the body */
+    padding: 0; /* Remove default padding from the body */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    font-family: 'Montserrat', serif; /* Set the font for the entire page */
+    background-color: #858d7d; /* Set the background color of the page */
 }
 
 #projects{
-    display: flex;
-    flex-direction: column;
-    margin: 10vh 20vw;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements in a column (vertical direction) */
+    margin: 10vh 20vw; /* Add top/bottom and left/right margins relative to the viewport size */
 }
 
 .row{
-    background-color: white;
+    background-color: white; /* Set background color of rows to white */
 }
 
 #projects a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link text color to black */
 }
 
 .project:hover{
-    background-color: rgba(218, 217, 217, 0.824);
+    background-color: rgba(218, 217, 217, 0.824); /* Change background color on hover */
 }
 
 .project{
-    display: flex;
-    flex-direction: row;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px 20px;
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange child elements in a row (horizontal direction) */
+    border-radius: 15px; /* Round the corners of the container */
+    margin-top: 10px; /* Add top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+    padding: 15px 20px; /* Add padding inside the container */
 }
 
 .project img{
-    width: 12vw;
+    width: 12vw; /* Set the width of the image to 12% of the viewport width */
 }
 
 .description{
-    margin-left: 1vw;
-    margin-top: -3vh;
+    margin-left: 1vw; /* Add left margin to the description */
+    margin-top: -3vh; /* Move the description up slightly */
 }
-
-/*marker*/
 
 /* Full-screen intro section */
 #about {
-    display: flex;
-    flex-direction: row; /* Stack name and description vertically */
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    width: 100%; /* Full width */
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange child elements in a row (horizontal direction) */
+    align-items: center; /* Vertically center the content within the container */
+    justify-content: center; /* Horizontally center the content within the container */
+    width: 100%; /* Full width of the viewport */
     height: 100vh; /* Full viewport height */
-    background-color: #eae6e1; /* Background color */
-    text-align: left; /* Center align text */
-    border-bottom: 2px solid black;
+    background-color: #eae6e1; /* Set background color */
+    text-align: left; /* Align text to the left */
+    border-bottom: 2px solid black; /* Add a black border at the bottom of the section */
 }
 
 /* Styling for the content (name and description) */
 #content {
-    display: flex;
-    flex-direction: column; /* Stack name and description vertically */
-    max-width: 700px; /* Restrict width for readability */
-    text-align: left;
-    padding-right: 8vw; /*Spacing between image and name/description*/
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    max-width: 700px; /* Limit the width for readability */
+    text-align: left; /* Align text to the left */
+    padding-right: 8vw; /* Add right padding between image and name/description */
 }
 
 /* Styling for the headshot */
 #headshot img {
-    width: 500px; /* Set desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Rounded corners */
-    margin-left: 20px; /* Add space between text and image */
+    width: 500px; /* Set the width of the image to 500px */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 15px; /* Apply rounded corners to the image */
+    margin-left: 20px; /* Add space between the image and the text */
 }
-
 
 /* Styling for the name */
 #about h1 {
-    font-size: 4.75rem; /* Large, prominent heading */
-    margin: 0 0 20px 0; /* Add spacing below the heading */
-    color: #333; /* Darker text color for contrast */
+    font-size: 4.75rem; /* Set the font size for the main heading (large) */
+    margin: 0 0 20px 0; /* Add 20px spacing below the heading */
+    color: #333; /* Set the text color to dark gray */
 }
 
 /* Styling for the description */
 #about p {
-    font-size: 1.2rem; /* Slightly larger font for readability */
-    line-height: 1.8; /* Adjust line height for better spacing */
-    color: #666; /* Softer text color for description */
+    font-size: 1.2rem; /* Set a slightly larger font size for readability */
+    line-height: 1.8; /* Increase line height for better text spacing */
+    color: #666; /* Set the text color to a lighter gray for description */
     max-width: 800px; /* Limit text width for better readability */
 }
 
+/* Styling for the buttons section */
 #buttons {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    margin-bottom: -50px;
+    display: flex; /* Use flexbox layout for buttons */
+    justify-content: center; /* Horizontally center the buttons */
+    margin: 20px; /* Add margins around the buttons */
+    margin-bottom: -50px; /* Move the buttons up slightly */
 }
 
 #buttons button {
-    padding: 8px 15px;
-    margin: 0 10px;
-    font-size: 1rem;
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 8px 15px; /* Add padding inside the button */
+    margin: 0 10px; /* Add horizontal margin between buttons */
+    font-size: 1rem; /* Set font size for buttons */
+    border: 1px solid #333; /* Set a dark border around the buttons */
+    background-color: #fff; /* Set background color to white */
+    color: #333; /* Set text color to dark gray */
+    cursor: pointer; /* Change cursor to pointer when hovering over button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color changes */
 }
 
 #buttons button:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
 }
 
+/* Styling for the project header */
 #proj_header{
-    text-align: center;
-    font-size: 3.5rem;
+    text-align: center; /* Center align the header text */
+    font-size: 3.5rem; /* Set font size for the header */
 }
 
 #buttons h3{
-    margin-right: 0.5vw;
+    margin-right: 0.5vw; /* Add right margin to h3 inside buttons */
 }
