@@ -32,6 +32,14 @@ function randomComic(){
     return newURI;
 }
 
+function getDate(){
+    let month = myData.month;
+    let day = myData.day;
+    let year = myData.year;
+    let newDate = `${month}/${day}/${year}`;
+    return newDate;
+}
+
 function displayRes(){
     let date = getDate();
     document.getElementById("comic").src = myData.img;
@@ -59,5 +67,3 @@ function getDate(){
     let newDate = `${month}/${day}/${year}`;
     return newDate;
 }
-
-console.log(getDate());
